@@ -1,6 +1,5 @@
 # ![Arduino](https://img.shields.io/badge/Arduino-Project-blue) Standalone Arduino Inductance (L) Meter
 
-![wave](https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif)  
 A standalone, non-IoT instrument to measure inductance using **Arduino**, **LC Tank Circuit**, and **LM339 Comparator**.  
 
 ---
@@ -53,7 +52,7 @@ This project was a great learning experience in **signal conditioning**, **embed
 
 Below is the complete wiring for the Standalone Arduino Inductance (L) Meter:
 
-![Circuit Diagram](./2dda0a8e-44da-4366-a6a1-9c23249022e0.jpg)
+![Circuit Diagram](https://github.com/abhishekpj-02/Inductance-Meter/blob/main/Wiring%20Diagram.png)
 
 - **Arduino Uno** is connected to an **LM339 Comparator IC** and the **I²C LCD**.  
 - The unknown inductor ($L_x$) is paired with a reference capacitor ($C_\text{ref}$) to form the LC tank circuit.  
